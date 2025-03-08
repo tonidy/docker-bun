@@ -17,7 +17,8 @@ jobs:
       packages: write
     strategy:
       matrix:
-        variant: ['alpine', 'minideb', 'ubuntu']
+        variant: ['alpine']
+        # variant: ['alpine', 'minideb', 'ubuntu']
 
     steps:
       - name: Checkout
